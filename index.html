@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jialu's Journals</title>
+    <link rel="icon" href="favicon.ico">
+
+</head>
+<body>
+    <header>
+        <h1>Jialu's personal journals</h1>
+    </header>
+    <img class="fit-picture"
+            src="Jialu.JPG"
+            alt="A photo of me"
+    >
+    
+    <nav class="crumbs">
+        <ol>
+            <li class="crumb"><a href="#">Home</a></li>
+            <li class="crumb"><a href="#">Contact</a></li>
+            <li class="crumb">Personal Journals</li>
+        </ol>
+    </nav>
+    <main>
+        <p>
+            Here are my journals for today, yesterday and 2 days ago.
+        </p>
+    </main>
+    <section>
+        <h2>4/10/2021</h2>
+        <div>
+            <p>Something about div</p>
+          </div> 
+          <p><span>Something about span</span></p>
+        <p>Something horrible happened today. My boyfriend went back to San Diego and found out that someone broken into his apartment while he was in China.... So terrifying...</p>
+        <hr>
+        <p>I did 2 tests today. So exhausted...</p>
+        <hr>
+        <h3>Something need to do today</h3>
+        <ul>
+            <li>Watch lecture recording for <b>CSE110</b></li>
+            <li>Finish <b>Cogs118B</b> homework</li>
+            <li>Finish <b>Cogs160</b> homework</li>
+        </ul>
+        <p>Most importantly, <strong>Remember to eat fruit and vegetable!</strong></p>
+
+    </section>
+
+    <section>
+        <h2>4/09/2021</h2>
+        <p><i>Natural Language Processing</i> is such an amazing technique but is also so hard to learn! It's definitely <em>not</em> something that I could learn in several weeks...</p>
+        <p>This is a good website for learning NLP:<a href="https://www.udemy.com/course/nlp-natural-language-processing-with-python/">Website</a></p>
+        <p>I should probabily write this down... Remember to go to Linda's office, address is:</p>
+        <p>Guirong <br>
+            887 Gongsongling Road <br>
+            Weihai, Shandong <br>
+            264200 <br>
+            China <br>
+        </p>
+
+
+
+
+    </section>
+
+    <section>
+        <h2>4/08/2021</h2>
+        <p>This song is so beautiful! Best song ever!</p>
+        <figure>
+            <figcaption>Taylor Swift's Love Story</figcaption>
+            <audio
+                controls
+                src="Love Story.mp3">
+                Your browser does not support the <code>audio</code> element.
+            </audio>
+        </figure>
+        <p>Memory from last year: <b>Best Cake Ever!</b>></p>
+        <video controls width="250">
+
+            <source src="video.mp4">
+        
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+        <details>
+            <summary>What is this?</summary>
+            A cake on FIRE!
+        </details>
+
+
+        
+    </section>
+    
+     <form>
+        <div>
+          <label for="name">Enter your name: </label>
+          <input type="text" name="name" id="name" required>
+        </div>
+        <div>
+          <label for="email">Choose the date: </label>
+          <input type="date" name="date" id="date" required>
+        </div>
+
+        <div>
+            <label for="mycollege">Select your college:</label>
+            <input list="college" id="mycollege" name="mycollege" />
+            <datalist id="college">
+                <option value="Marshall">
+                <option value="Warren">
+                <option value="ERC">
+                <option value="Revelle">
+                <option value="Muir">
+                <option value="Sixth">
+                <option value="Seventh">
+            </datalist>
+        </div>
+
+        <div>
+            <label for="animal">Choose your favorite animal:</label>
+
+            <select name="fav" id="animal">
+                <option value="">--Please choose an option--</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="horse">Horse</option>
+                <option value="rabbit">Rabbit</option>
+                <option value="bird">Bird</option>
+                <option value="fish">Fish</option>
+            </select>
+        </div>
+
+        <div>
+            <fieldset>
+                <p>Choose your mood today</p>
+                <input type = "radio" id="fabulous" name="mood">
+                <label for="fabulous">Fabulous!</label> <br>
+
+                <input type = "radio" id="fine" name="mood">
+                <label for="fine">I'm fine....</label> <br>
+
+                <input type = "radio" id="terrible" name="mood">
+                <label for="terrible">Terrible....</label> <br>
+
+            </fieldset>
+        </div>
+        <div>
+            
+            <fieldset>
+                <p>Choose the food you like:</p>
+                <div>
+                    <input type="checkbox" id="pizza" name="pizza">
+                    <label for="pizza"> Pizza </label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="burger" name="burger">
+                    <label for="burger"> Burger </label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="pasta" name="pasta">
+                    <label for="pasta"> Pasta </label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="hotpot" name="hotpot">
+                    <label for="hotpot"> Hotpot </label>
+                </div>
+            </fieldset>
+        </div>
+
+        <div>
+
+            <label for="story">Write your journal here:</label>
+
+            <textarea id="story" name="story" rows="5" cols="33">
+            I feel.....
+            </textarea>
+
+        </div>
+
+        
+        <div>
+            <button name="button">Submit</button>
+        </div>
+      </form>
+    
+
+
+    
+
+
+
+
+
+
+
+
+    <footer>
+        <p>@ 2021 Jialu</p>
+    </footer>
+    
+</body>
+</html>
