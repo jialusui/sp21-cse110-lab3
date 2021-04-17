@@ -1,0 +1,83 @@
+/* This is my css style file */
+.red {
+    color: blue;
+  }
+.green {
+    color: hsl(30, 100%, 50%);
+    margin: auto;
+}
+.blue {
+    color: rgba(163, 114, 231, 0.6);
+}
+.hex {
+    color: #FFF;
+}
+#background {
+    background: #ffa;
+  }
+*.tired {
+    color:cadetblue;
+ }
+
+h1 {
+    text-align: center;
+    color: red;
+ }
+
+.wrap {
+    font-size: 1em;
+}
+.wrapper {
+    font-size: 1em;
+  }
+
+.lh {
+    height: 10lh;
+
+}  
+
+.rem{
+    font-size: 3rem;
+}
+
+.vh{
+    height: 10vh;
+}
+
+.address{
+    height : 10cm;
+    width : 100mm;
+    font-size: 16px;
+
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+
+a[href^="https"] {
+    color: green
+}
+/* when user press button*/
+button:hover {
+    color: blue;
+  }
+
+h2,h3 {
+    color: rgb(115, 42, 117);
+  } 
+.box1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right :10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-color: rgb(153, 109, 155);
+    border-width: 1px;
+    
+
+
+}
