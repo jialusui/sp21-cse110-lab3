@@ -11,10 +11,10 @@
     }
   }
 .red {
-    color: blue;
+    color: red;
     text-align: center;
-    min-width: 10px;
-    max-width: 50px;
+    min-width: 50px;
+    max-width: 200px;
   }
 .green {
     color: hsl(30, 100%, 50%);
@@ -155,4 +155,23 @@ h2,h3 {
     grid-column-end: 5;
     grid-row-start:2 ;
     grid-row-end: 3;
+}
+
+div div{
+    color:pink;
+}
+
+div > span {
+    background-color: powderblue;
+}
+
+p~span {
+    color: red
+}
+
+video + p {
+    color :rebeccapurple
+}
+p.footer {
+    color :saddlebrown;
 }
