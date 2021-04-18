@@ -1,6 +1,20 @@
 /* This is my css style file */
+
+@font-face {
+    font-family: "myFont";
+    src: url("https://fonts.google.com/specimen/Antonio");
+  }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(196, 227, 238);
+    }
+  }
 .red {
     color: blue;
+    text-align: center;
+    min-width: 10px;
+    max-width: 50px;
   }
 .green {
     color: hsl(30, 100%, 50%);
@@ -22,6 +36,7 @@
 h1 {
     text-align: center;
     color: red;
+    font-family: "myFont";
  }
 
 .wrap {
@@ -64,6 +79,7 @@ button:hover {
 
 h2,h3 {
     color: rgb(115, 42, 117);
+    position: static;
   } 
 .box1 {
     margin-top: 10px;
@@ -80,4 +96,63 @@ h2,h3 {
     
 
 
+}
+
+.under {
+    text-decoration: underline red;
+  }
+
+  span {
+      display:block;
+  }
+
+  li {
+      display:inline;
+  }
+
+  .relative {
+      position: relative;
+      top: 10px; 
+      bottom: 10px;
+      right: 10px;
+      left: 10px;
+  }
+  a:active { color: orange; } 
+
+  .flex-container {
+    display: flex; /* or inline-flex */
+    height: 300px;
+    flex-flow: row nowrap;
+  }
+  .flex-child1 {
+      width: 40%;
+      height: 40%;
+      margin: auto;
+      flex-grow: 1;
+      flex-basis: auto;
+  }
+  .flex-child2 {
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    flex-grow: 1;
+}
+
+.grid {
+    display:grid;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    grid-template-rows: auto;
+}
+.grid-item1 {
+    grid-column-start:1 ;
+    grid-column-end: 3;
+    grid-row-start:2 ;
+    grid-row-end: 3;
+}
+
+.grid-item2 {
+    grid-column-start:4 ;
+    grid-column-end: 5;
+    grid-row-start:2 ;
+    grid-row-end: 3;
 }
